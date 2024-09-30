@@ -1,0 +1,53 @@
+.nav-link,
+.navbar-brand {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-left: 12px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important
+}
+
+#dropdown {
+    color: white;
+}
+
+.arrow-up {
+    font-size: 40px !important;
+    position: absolute;
+    top: -27px;
+    left: 20px;
+    color: white;
+}
+
+.dropdown-menu {
+    top: 80px !important;
+    width: 220px;
+    animation: flipInY;
+    animation-duration: 1s;
+}
+
+@media(max-width:768px) {
+    .dropdown-menu {
+        animation: slideInRight;
+        animation-duration: 0.5s;
+    }
+    .arrow-up{
+        top: 20px;
+    }
+    .navbar-toggler{
+        border-color: white !important;
+    }
+    .navbar-toggler-icon{
+        background: inherit !important;
+    }
+    
+    .navbar-toggler-icon::before{
+        font-family:"FontAwesome";
+        content:"\f0c9";
+        color: white !important;
+        font-size: 30px;
+    }
+    
+}

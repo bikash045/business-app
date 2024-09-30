@@ -1,0 +1,19 @@
+.divmt{
+    margin-top: 12vh;
+}
+
+/* Medium screens (for tablets and mid-size devices) */
+@media (max-width: 992px) {
+    .divmt{
+        margin-top: 10vh;
+       
+    }
+}
+
+/* Small screens (for mobile devices) */
+@media (max-width: 768px) {
+    .divmt{
+        margin-top: 7vh;
+    }
+}
+

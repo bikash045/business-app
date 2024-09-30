@@ -1,0 +1,32 @@
+ [
+    {
+        "id":"key1",
+        "icon": "fa fa-home",
+        "title": "Financial Planning",
+        "desc": "40 hours course time"
+    },
+    {
+        "id":"key2",
+        "icon": "fa fa-edit",
+        "title": "Art & Market Analysis",
+        "desc": "40 hours course time"
+    },
+    {
+        "id":"key3",
+        "icon": "fa fa-copy",
+        "title": "Business Planning",
+        "desc": "40 hours course time"
+    },
+    {
+        "id":"key4",
+        "icon": "fa fa-gear",
+        "title": "Latest  Technology",
+        "desc": "40 hours course time"
+    },
+    {
+        "id":"key5",
+        "icon":"fa fa-dashboard",
+        "title": "Design & Programming",
+        "desc": "40 hours course time"
+    }
+]

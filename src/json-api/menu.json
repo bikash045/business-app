@@ -1,0 +1,24 @@
+[
+    {
+        "id": "key1",
+        "lable": "Home",
+        "url": "/",
+        "dropdown":false,
+        "button":false
+    },
+
+    {
+        "id": "key3",
+        "lable": "Courses",
+        "url": "/courses",
+        "dropdown":true,
+        "button":false
+    },
+    {
+        "id":"key9",
+        "lable":"Contact us",
+        "url":"/contact-us",
+        "dropdown":false,
+        "button":false
+    }
+]

@@ -37,7 +37,8 @@
         top: 20px;
     }
     .navbar-toggler{
-        border-color: white !important;
+        /* border-color: white !important; */
+        border: none !important;
     }
     .navbar-toggler-icon{
         background: inherit !important;

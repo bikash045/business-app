@@ -1,13 +1,13 @@
 
 @media(max-width:991px){
     .colmt{
-        margin-top: 5vh;
+        margin-top: 4vh;
     }
     .containermt{
-        margin-top: 9vh !important;
+        margin-top: 8vh !important;
     }
 }
 
 .containermt{
-    margin-top: 15vh;
+    margin-top: 14vh;
 }

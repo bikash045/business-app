@@ -7,7 +7,7 @@ const Course = () => {
 
     return (
         <>
-           <div className="divmt" style={{background:"#f8f8fb"}}>
+           <div className="divmt p-2" style={{background:"#f8f8fb"}}>
            <Container>
                 <Row>
 

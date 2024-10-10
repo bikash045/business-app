@@ -7,13 +7,12 @@ import ContactUs from "./ContactUs/ContactUs";
 const Homepage = () => {
     const desing = (
         <>
-      <Bigadd />
+         <Bigadd />
         <div style={{backgroundColor:"#f8f8fb"}}> 
-         <Category />
+        <Category />
         <Benifits />
         <Course />
-        <ContactUs />
-   
+        <ContactUs /> 
         </div>
         </>
     );

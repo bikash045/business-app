@@ -9,7 +9,7 @@ const ContactUs = () => {
             <Container> 
                 <div className="containermt p-2">
                 <Row className="d-flex justify-content-between">
-                <Col className="colmt " lg={4}>
+                <Col lg={4}>
                        <Card className="text-light border-0" style={{ backgroundImage: "linear-gradient(to  bottom,  #4d5fe3,#bad7fc)",height:"100%"}}>
                         <Card.Body className="text-start " >
                         <h3> Get in touch</h3>

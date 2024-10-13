@@ -24,38 +24,10 @@ const NormalMenu = (data) => {
 
 const Header = () => {
 
-    const [isNavOpen, setIsNavOpen] = useState(false);
-    const navRef = useRef(null);
-    const menuIconRef = useRef(null);
-    const navigate = useNavigate();
-
-    const toggleNav = () => {
-        setIsNavOpen(!isNavOpen);
-    };
-
-    const handleClickOutside = (event) => {
-        if (navRef.current && !navRef.current.contains(event.target) && !menuIconRef.current.contains(event.target)) {
-            setIsNavOpen(false);
-        }
-    };
-
-    useEffect(() => {
-        document.addEventListener("mousedown", handleClickOutside);
-        return () => {
-            document.removeEventListener("mousedown", handleClickOutside);
-        };
-    }, []);
-
-    const handleLogoClick = () => {
-        navigate('/');
-        setIsNavOpen(!isNavOpen);
-    };
-
-
 
     const design = (
         <>
-            <Navbar expand="lg" className=" border-bottom fixed-top " style={{ background: "#10100F" }}>
+            <Navbar expand="lg" className=" border-bottom fixed-top p-0 " style={{ background: "linear-gradient(to right ,#41403d  ,#2d2c29 )" }}>
                 <Container>
                     <Link className="navbar-brand" to="/">
                         <img
@@ -64,8 +36,8 @@ const Header = () => {
                             alt="logo"
                         />
                     </Link>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav">
-                    <img className="w-100 text-light" src="images/menu_bar.png" alt="@logo" /> 
+                    <Navbar.Toggle  aria-controls="basic-navbar-nav" >
+                    <img className="w-100 text-light" src="images/menu.png" alt="@logo" /> 
                     </Navbar.Toggle>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="justify-content-end w-100">

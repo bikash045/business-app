@@ -40,15 +40,21 @@
         /* border-color: white !important; */
         border: none !important;
     }
-    .navbar-toggler-icon{
-        background: inherit !important;
-    }
+
     
     .navbar-toggler-icon::before{
         font-family:"FontAwesome";
         content:"\f0c9";
-        color: white !important;
         font-size: 30px;
     }
     
+}
+
+/* Remove border and box-shadow for the Navbar.Toggle */
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    border: none !important;   /* Force border removal */
+    outline: none !important;  /* Force outline removal */
+    box-shadow: none !important; /* Remove the Bootstrap button shadow when clicked */
 }

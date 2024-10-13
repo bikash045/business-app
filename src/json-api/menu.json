@@ -20,5 +20,12 @@
         "url":"/contact-us",
         "dropdown":false,
         "button":false
+    },
+    {
+        "id":"key10",
+        "lable":"Blogs",
+        "url":"/blog",
+        "dropdown":false,
+        "button":false
     }
 ]

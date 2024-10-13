@@ -1,7 +1,8 @@
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  Navigate
 } from "react-router-dom";
 import './App.css'
 import Header from "./cmp/header/Header";
@@ -18,12 +19,17 @@ const App = () => {
     <>
       <Router>
         <Header />
-          <Routes>
-            <Route exact path="/" element={<Homepage />}></Route>
-            <Route exact path="/courses" element={<Course />}></Route>
-            <Route exact path="/contact-us" element={<ContactUs />}></Route>
-          </Routes>
-          <Footer />
+        <Routes>
+          <Route exact path="/" element={<Homepage />}></Route>
+          <Route exact path="/courses" element={<Course />}></Route>
+          <Route exact path="/contact-us" element={<ContactUs />}></Route>
+          <Route
+            exact
+            path="/blog"
+
+          />
+        </Routes>
+        <Footer />
       </Router>
     </>
   );

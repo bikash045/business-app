@@ -12,8 +12,8 @@ import {
 
 const Column = (data) => {
     const design = (
-        <Col md className="px-4 mt-4 mt-md-0" >
-            <Card className="border-0 shadow rounded"  >
+        <Col xl={true} lg={true} md={4} sm={6} xs={12} className=" mt-3" >
+            <Card className="border-0 shadow rounded h-100"  >
                 <Card.Body className="text-center py-4" >
                     <div className="icon d-flex justify-content-center align-items-center">
                         <i className={data.catData.icon} style={{fontSize:"50px"}}></i>

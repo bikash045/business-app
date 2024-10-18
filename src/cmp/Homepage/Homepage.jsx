@@ -3,6 +3,7 @@ import Category from "./Category/Category";
 import Benifits from "./Benifits/Benifits";
 import Course from "../Courses/Course";
 import ContactUs from "./ContactUs/ContactUs";
+import Blog from "../Blog/Blog";
 
 const Homepage = () => {
     const desing = (
@@ -12,6 +13,7 @@ const Homepage = () => {
         <Category />
         <Benifits />
         <Course />
+        <Blog />
         <ContactUs /> 
         </div>
         </>

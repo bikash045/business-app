@@ -32,14 +32,12 @@
     .dropdown-menu {
         animation: slideInRight;
         animation-duration: 0.5s;
+      align-items: start;
     }
     .arrow-up{
         top: 20px;
     }
-    .navbar-toggler{
-        /* border-color: white !important; */
-        border: none !important;
-    }
+
 
     
     .navbar-toggler-icon::before{

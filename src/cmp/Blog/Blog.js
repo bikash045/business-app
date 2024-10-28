@@ -1,6 +1,7 @@
 // Blog.js
+import { grey } from '@mui/material/colors';
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 
 
 const blogPosts = [
@@ -76,10 +77,18 @@ const Blog = () => {
                 <div className="blog-posts">
                   {blogPosts.map(post => (
                     <div className="blog-card mt-4" key={post.id}>
-                      <h2>{post.title}</h2>
-                      <p className="date">{post.date}</p>
-                      <p>{post.content}</p>
-                      <a href="#" className="read-more">Read More</a>
+                    <Card className='border-0 shadow'>
+                      <Card.Header  style={{background:"grey" ,color:"white"}}>
+                      <h4>{post.title}</h4>
+                      </Card.Header>
+                      <Card.Body>
+                      <h5 className="date">{post.date}</h5>
+                      <h6>{post.content}</h6>
+                      </Card.Body>
+                      <Card.Footer className='text-end'>
+                      <a href="#" className="read-more text-decoration-none">Read More</a>
+                      </Card.Footer>
+                    </Card>
                     </div>
                   ))}
                 </div>

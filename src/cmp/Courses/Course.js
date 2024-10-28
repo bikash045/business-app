@@ -10,12 +10,12 @@ const Course = () => {
            <div className="divmt p-2" style={{background:"#f8f8fb"}}>
            <Container>
                 <Row>
-
                     {
                         Courses.map((item) => {
                             return (
                                 <>
                                     <Col lg={3} className="mt-4">
+                                    
                                         <Card className="border-0 shadow ">
                                             <Card.Body className="p-0" >
                                                 <img

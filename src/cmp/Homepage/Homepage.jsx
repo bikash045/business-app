@@ -12,8 +12,8 @@ const Homepage = () => {
         <div style={{backgroundColor:"#f8f8fb"}}> 
         <Category />
         <Benifits />
-        <Course />
-        <Blog />
+        {/* <Course />
+        <Blog /> */}
         <ContactUs /> 
         </div>
         </>

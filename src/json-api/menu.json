@@ -14,17 +14,18 @@
         "dropdown":true,
         "button":false
     },
-    {
-        "id":"key9",
-        "lable":"Contact us",
-        "url":"/contact-us",
-        "dropdown":false,
-        "button":false
-    },
+    
     {
         "id":"key10",
         "lable":"Blogs",
         "url":"/blog",
+        "dropdown":false,
+        "button":false
+    },
+    {
+        "id":"key9",
+        "lable":"Contact us",
+        "url":"/contact-us",
         "dropdown":false,
         "button":false
     }

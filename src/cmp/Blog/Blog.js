@@ -73,7 +73,7 @@ const Blog = () => {
         <Container>
           <Row>
             <Col>
-              <div className="blog-container" style={{ marginTop: "12vh" }}>
+              <div className="blog-container divmt p-1" >
                 <div className="blog-posts">
                   {blogPosts.map(post => (
                     <div className="blog-card mt-4" key={post.id}>
